@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample Web Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        nav {
+            background: #555;
+            overflow: hidden;
+        }
+        nav a {
+            float: left;
+            display: block;
+            color: #fff;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background-color: #777;
+        }
+        .container {
+            display: flex;
+            flex-direction: row;
+            margin: 20px;
+        }
+        .main-content {
+            flex: 3;
+            background: #f4f4f4;
+            padding: 20px;
+            border-radius: 8px;
+            margin-right: 10px;
+        }
+        .sidebar {
+            flex: 1;
+            background: #e4e4e4;
+            padding: 15px;
+            border-radius: 8px;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Web Page</h1>
+    </header>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="container">
+        <div class="main-content">
+            <h2>Main Content</h2>
+            <p>This is the main content section of the web page. It contains information, articles, or any other content that is the focal point of the page.</p>
+            <p>Here, you can add additional text, images, or any multimedia elements relevant to your page.</p>
+        </div>
+        <div class="sidebar">
+            <h3>Sidebar</h3>
+            <p>This is the sidebar section, useful for displaying supplementary information like links, ads, or navigation.</p>
+        </div>
+    </div>
+    <footer>
+        <p>Footer &copy; 2024 YourWebsite</p>
+    </footer>
+</body>
+</html>
